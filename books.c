@@ -13,23 +13,53 @@ Note: ISBN number is 9 digit( EX: 1234-5678) and the validity of the isbn should
 Expected screen output will be:*/
 
 #include <stdio.h>
-#include<conio.h>
-#include<stdio.h>
-#include<string.h>
-class stock
+#include <stdlib.h>
+struct board
 {
-    char author[50];
-    char title[50];
-    char pub[50];
-    double price;
-    int numcopies;
-   public:
-               stock();
-               int access_title(char a[]);
-               void input();
-               void getdata(int);
-
+    char b[4][4];
+    int n;
 };
-
-
-
+int main()
+{
+    struct board bird;
+    scanf("%d",&bird.n);
+    int size=bird.n;
+    for (int i=0;i<size;i++)
+    {
+        for (int j=0;j<size;j++)
+        {
+            scanf("%c ",&bird.b[i][j]);
+        }
+    }
+    printf("%c",bird.b[0][0]);
+    for (int i=0;i<size;i++)
+    {
+        for (int j=0;j<size;j++)
+        {
+            printf("%c ",bird.b[i][j]);
+        }
+        printf("\n");
+    }
+    int ro=size;
+    int co=size;
+    int counter=0;
+    if (ro>2 && co>2)
+    {
+        for (int i=0;i<ro-1;i++)
+        {
+            for (int j=0;j<co-2;j++)
+            {
+                if ((bird.b[i][j] == bird.b[i+1][j]) && (bird.b[i][j] == bird.b[i+2][j]) && (bird.b[i][j] == bird.b[i+2][j+1]) && (bird.b[i][j] == bird.b[i+2][j+2]))
+                {
+                    printf("Yes");
+                    counter+=1;
+                }
+            }
+        }
+    }
+    if(counter==0)
+    {
+        printf("No");
+    }
+    return 0;
+}
