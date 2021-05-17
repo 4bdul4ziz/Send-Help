@@ -1,0 +1,5 @@
+height = c(175,168,170,171,169,165,165,160,180,186)
+weight = c(80,68,72,75,70,65,62,60,85,90)
+plot(height,weight)
+cor(height,weight)
+cor.test(height,weight)
