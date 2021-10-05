@@ -6,7 +6,7 @@ i = 1
 time.sleep(7)
 while i:
 
-    text = "<@600653864634679297>"
+    text = "<@885378135821004800>"
 
     keyboard = Controller()
 
