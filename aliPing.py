@@ -1,7 +1,8 @@
 import time
-from pynput.keyboard import Key, Controller
 
-print("Pinging in 7 seconds...")
+from pynput.keyboard import Controller, Key
+
+print("COuntdown: 7s")
 i = 1
 time.sleep(7)
 while i:
@@ -17,3 +18,4 @@ while i:
     keyboard.release(Key.enter)
             
     time.sleep(1)
+
