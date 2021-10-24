@@ -1,4 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
-    "restructuredtext.confPath": ""
+    "restructuredtext.confPath": "",
+    "files.associations": {
+        "string": "cpp"
+    }
 }
