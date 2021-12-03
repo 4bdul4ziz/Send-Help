@@ -17,3 +17,6 @@ Role does not exist.
 {{else}}
 Syntax: `-mra <Role:ID/Mention> <User:Mention>` 
 {{end}}
+
+No User Mentioned; 
+  tag

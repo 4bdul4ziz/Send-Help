@@ -1,23 +1,13 @@
-cols = 0
-rows = 0
+def unique_in_order(s):
+    fin=[s[0]]
+    for i in range(0,len(s)):
+        if i==len(s)-1:
+            return fin
+        if s[i]!=s[i+1]:
+            print("NIGGA")
+            fin.append(s[i+1])
+            print(fin) 
+    return fin
 
-def num_columns(input_listA):
-    cols = len(list(input_listA[0]))
-    return cols
-def num_rows(input_listB):
-    rows = len(list(input_listB))
-    return rows
-
-def multiply_matrice(num_columns, num_rows):
-    if cols == rows:
-        return True
-    else:
-        return False
-
-input_listA = [1,2,3,4,5]
-input_listB = [6,7,8,9,10]
-
-num_columns(input_listA)
-num_rows(input_listB)
-
-multiply_matrice(num_columns(input_listA), num_rows(input_listB))
+x=unique_in_order('AAAABBBCCDAABBB')
+print(type(x))
