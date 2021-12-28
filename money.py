@@ -6,7 +6,7 @@ i = 1
 time.sleep(7)
 while i:
 
-    text = "pls se 100000"
+    text = "pls se max"
 
     keyboard = Controller()
 
