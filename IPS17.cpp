@@ -18,7 +18,7 @@ class Complex {
     Complex addComp(Complex C1, Complex C2)
     {
         Complex temp;
-        temp.real = C1.real + C2.real;
+        temp.real = C1.real + C2.r eal;
         temp.imaginary = C1.imaginary + C2.imaginary;
         return temp;
     }
