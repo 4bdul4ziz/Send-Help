@@ -11,6 +11,7 @@ output:
 
 Gooddd*/
 
+
 #include<stdio.h>
 
 char str(100);
