@@ -1,4 +1,3 @@
-
 import timeit
 
 start = timeit.default_timer()
@@ -6,7 +5,7 @@ start = timeit.default_timer()
 
 stop = timeit.default_timer()
 
-print('Time: ', stop - start)
+print("Time: ", stop - start)
 
 subs = []
 
@@ -16,16 +15,16 @@ def permute(a, l, r):
         subs.append(list(a))
         # print("hi",list(a))
     else:
-        for i in range(l, r+1):
+        for i in range(l, r + 1):
             a[l], a[i] = a[i], a[l]
-            permute(a, l+1, r)
+            permute(a, l + 1, r)
             a[l], a[i] = a[i], a[l]
 
 
 def check(arr, y):
     count = 0
-    for i in range(1, len(arr)+1):
-        if arr[i-1] == i:
+    for i in range(1, len(arr) + 1):
+        if arr[i - 1] == i:
             count += 1
     if count == y:
         return True
@@ -37,9 +36,9 @@ def tes():
     x = int(x)
     y = int(y)
     arr = []
-    for i in range(1, x+1):
+    for i in range(1, x + 1):
         arr.append(i)
-    permute(arr, 0, len(arr)-1)
+    permute(arr, 0, len(arr) - 1)
     # print(subs)
     f = 0
     for i in subs:
@@ -52,10 +51,10 @@ def tes():
     subs.clear()
 
 
-t = int(input('\n'))
+t = int(input("\n"))
 for i in range(t):
     tes()
 
 stop = timeit.default_timer()
 
-print('Time: ', stop - start)
+print("Time: ", stop - start)
