@@ -3,5 +3,6 @@
     "restructuredtext.confPath": "",
     "files.associations": {
         "string": "cpp"
-    }
+    },
+    "editor.formatOnType": true
 }

@@ -1,5 +1,6 @@
 # A Python implementation of the block cipher IDEA
 
+
 def _mul(x, y):
     assert 0 <= x <= 0xFFFF
     assert 0 <= y <= 0xFFFF
@@ -78,7 +79,7 @@ class IDEA:
 
         keys = []
         for i in range(9):
-            round_keys = sub_keys[6 * i: 6 * (i + 1)]
+            round_keys = sub_keys[6 * i : 6 * (i + 1)]
             keys.append(tuple(round_keys))
         self._keys = tuple(keys)
 
@@ -115,15 +116,15 @@ def main():
     plain = 0xF129A6601EF62A47
     cipher = 0xEA024714AD5C4D84
 
-    print ('key\t\t', hex(key))
-    print ('plaintext\t', hex(plain))
+    print("key\t\t", hex(key))
+    print("plaintext\t", hex(plain))
 
     my_IDEA = IDEA(key)
     encrypted = my_IDEA.encrypt(plain)
     assert encrypted == cipher
 
-    print ('ciphertext\t', hex(cipher))
+    print("ciphertext\t", hex(cipher))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

@@ -16,6 +16,5 @@ while i:
     keyboard.press(Key.enter)
 
     keyboard.release(Key.enter)
-            
-    time.sleep(1)
 
+    time.sleep(1)

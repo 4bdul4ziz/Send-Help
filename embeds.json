@@ -1,0 +1,272 @@
+//rules stuff
+{
+    "url": "https://www.reddit.com/r/RedditPirates/wiki/index",
+    "image": {
+        "url": "https://c.tenor.com/fjvF2rcBEI0AAAAd/rules.gif"
+    },
+    "color": 16711680
+}
+
+{
+    "description": "*The following outlines our simple but effective rules which ensures that Reddit Pirates is a safe and enjoyable place to play Clash of Clans.*\n** **\n** **\n__**The categories include:**__\n** **\n📍 General Rules\n📍 Contributions\n📍 Capital Rules\n📍 War Rules\n📍 CWL Rules\n📍 Warnings & Removals",
+    "thumbnail": {
+        "url": "https://cdn.discordapp.com/attachments/962341885576364092/973926060368465920/a-4c6a69b1c4f6feda26b38164e184-unscreen.gif"
+    },
+    "image": {
+        "url": "https://cdn.discordapp.com/attachments/842741907720896512/842806312386428948/gif.gif"
+    },
+    "color": 16711680
+}
+
+{
+    "description": "*We're a clan which focuses on wars and constantly getting better at attacks while having fun and learning together. We are pretty active in chat, especially evenings/nights EST-PST and we're always looks for anyone interested in helping strategise attacks and destroy the enemy.*\n\n**Server Legend**\nHere's a run-down of the channels present here.\n** **\n> <#258970772842872844> General clan chatter section.\n> <#526851882686087168> Sharing cool clash related content.  \n> <#786332089784074250> Get yourself role-d up! \n> <#598179915606786058> RCS related announcements.\n> <#295958575015133185> All clan related announcements.\n\n**General Rules**\n:arrow: **Language:** Keep the language clean.\n:arrow: **Requests:** Request specific levels of troops only during war.\n:arrow: **Promotions:** Promotions are earned.\n:arrow: **Activity:** Min. 400 don./season; exception for lower accounts.\n:arrow: **Rushing:** Rushing is not allowed.\n:arrow: **Season Reset:** Badge required within 1 week of season reset.\n:arrow: **Minis:** Active minis are welcome depending on available space.\n:arrow: **Max Clan Reviews:** Whenever a clan reaches 48+ players, we will assess removing accounts. Criteria includes activity, infractions or skill concerns.\n** **\n***Note:** As a member of Rogue Pirates, you will be having a relaxed subset of the general activity and donation requirement mentioned above. But they do exist.* \n",
+    "thumbnail": {
+        "url": "https://cdn.discordapp.com/attachments/764780425465298968/974364167190482984/red-beard-pirate-3-unscreen.gif"
+    },
+    "image": {
+        "url": "https://cdn.discordapp.com/attachments/842741907720896512/842806312386428948/gif.gif"
+    },
+    "color": 16711680
+}
+
+{
+    "title": "**Contribution Rules**",
+    "description": "A quality of a clan is directly determined by its activity. We require all players to be actively contributing to the clan though clan castle donations, clan capital contributions and clan games.\n\n**Clan Capital**\n:arrow: **Min Contributions:** 25K in capital gold/season for all Town-halls.\n:arrow: **Raids:** In order to ensure maximum benefits out of the raid week, all members are required to use their attacks by the end of the weekend. \n\n**Clan Games**\n:arrow: Min Contributions: 1500 per clan\n:arrow: Multiple Accounts: Points may be combined for accounts within the same clan\n:arrow: Maxed Accounts: Exempt (excluding walls)\n:arrow: Donation Accounts: Exempt\n:arrow: Mini Accounts: Minis are welcome to join for games\n\n**Clan Castle**\nWe commemorate the contributions of a player as a whole to the clan when they contribute to the CC in general. However, we do have some guidelines to follow through while doing so.\n\n:arrow: **Donation Ratios:** No requirement to maintain a ratio.\n:arrow: **Max Donations:** Limit max donation requests to war.\n:arrow: **TH Limitations:** We recommend you keep to the clan specific troop levels when not for war to allow all members to contribute.\n:arrow: **Maxed Minis:** As players are not grinding their maxed mini accounts, it is known the donations will be lower.",
+    "thumbnail": {
+        "url": "https://cdn.discordapp.com/attachments/764780425465298968/974233594002284544/200w-unscreen.gif"
+    },
+    "image": {
+        "url": "https://cdn.discordapp.com/attachments/842741907720896512/842806312386428948/gif.gif"
+    },
+    "color": 16711680
+}
+
+{
+    "title": "**Clan Capital Rules**",
+    "description": "Great things are never done by one person, they're done as a team... SAME goes for the capital upgrades! Below outline the rules and exceptions for the capital contributions.\n\n**Capital Upgrades**\n:arrow: **Upgrade Strategy:** Follow the upgrade strategy as posted in the upgrade checklists & ask COs for help and/or exceptions.\n\n**Capital Raids**\n:arrow: **Strategy:** Follow the raid strategy as posted & ask COs for help and/or exceptions.\n:arrow: **Attack Order:** There is no specific attack order. Simply attack throughout the weekend when you are available.\n:arrow: **Bonus Attacks**: At the current level, districts require fewer than 5 attacks to be 3-starred enabling everyone to get a bonus attack. However, if districts start requiring more than 5 attacks in the future, please assist your clan-mates in obtaining a bonus attack by checking in-game and on discord if anyone needs a bonus attack.\n\n**General Contribution Agenda**\n:arrow: **Donations:** Minis or any other accounts that aren't in the clan may be temporarily brought into the clan for contributing capital gold. Ensure our upgrade priorities are followed.\n:arrow: **Raids:** Minis or any other accounts that aren't in the clan may be temporarily brought into the clan for participating in our capital raids. Ensure our capital raid strategies are followed.\n:arrow: **Removal:** Minis or any other accounts that aren't in the clan; must be immediately removed following donations or raids. Spaces cannot be held for those accounts. The clans are deemed \"maxed\" at 49 accounts to allow for bringing in minis. If players are found to not remove their temporary accounts in a timely fashion, they will receive a warning.",
+    "thumbnail": {
+        "url": "https://cdn.discordapp.com/attachments/764780425465298968/974363515768946708/red-beard-pirate-2-unscreen.gif"
+    },
+    "image": {
+        "url": "https://cdn.discordapp.com/attachments/842741907720896512/842806312386428948/gif.gif"
+    },
+    "color": 16711680
+}
+
+{
+    "title": "**War Rules**",
+    "description": "Here at Reddit Pirates, war is the breathing spirit for the clan. We expect a full commitment in the event you are partaking in a war spun across any of our clans.\n\n:arrow: **Hero Upgrades:** No heroes, no war. If upgrading, opt out of war.\n:arrow: **Pet Upgrades:** Pet upgrades allowed during war. No need to opt out except during CWL.\n:arrow: **Attacks:** Both attacks must be used in war. If no viable stars or destruction percentage can be gained, you may practice an attack on an already attacked base to ensure the attack is used.\n:arrow: **Attack Timing:** All attacks must be completed PRIOR to the final 30 minutes of war unless approved by a CO.\n:arrow: **No Babysitting:** Our bot pings war reminders as follows: 8 hrs, 4 hrs, 6 hrs & 1 hr remaining. It is the accountability of player to get their hits in.\n:arrow: **War Requirement:** You may opt out to upgrade heroes for the majority of the season. All players need to be in war for at least 3 or 4 (depending on the TH level) wars per season/month.\n:arrow: **Maxed Minis:** Required to war a minimum of once a week all season and participate in CWL.\n\n📍**Base Claiming**\n:arrow: **Preparation Day:** Do not claim on preparation day.\n:arrow: **How To:** Visit <#769244397123665960> for more info on working with the wm-bot\n:arrow: **Invalid:** Claims last for 2 hours, beyond which they're invalid.\n:arrow: **CWL:** Claims during CWL do not require wmbot and are done in-game. \n:arrow: **Fairness:** Claim one base at a time.\n\n⏰ **War Cycles**\n:arrow: **Pirates:** B2B **<OR>** same as Parallax & Royals.\n:arrow: **Parallax:** Monday/Wednesday/Friday at 6pm UTC\n:arrow: **Royal Pirates:** Monday/Wednesday/Friday at 6pm UTC\n:arrow: **Rogue Pirates:** Depends on the FWA cycle.\n\n",
+    "thumbnail": {
+        "url": "https://cdn.discordapp.com/attachments/764780425465298968/974363093985558548/200-unscreen.gif"
+    },
+    "image": {
+        "url": "https://cdn.discordapp.com/attachments/842741907720896512/842806312386428948/gif.gif"
+    },
+    "color": 16711680
+}
+
+{
+    "title": "**CWL Rules**",
+    "description": "CWL... the best week of 'em all. Here at Reddit Pirates, CWL is a celebrated week full of intense wars.\n\n:arrow: **Sign Ups:** Sign up form will be posted during clan games, make sure to sign yourself up to participate.\n:arrow: **War Strategy:** Strategies will be posted in the event of mismatches which is bound to happen- these are taken into consideration of all factors affecting our victory on that day. Follow the war strategy as communicated. If unclear, please ask a CO in-game or on Discord.\n:arrow: **Attacks:** Attacks must be used in CWL. If you miss an attack in CWL without sufficient justification, you will be warned/retired. At CO's discretion, you may be allowed to stay but will sit the rest of CWL.\n:arrow: **Base Calling:** We use the in-game calling function to call up bases during CWL.\n:arrow: **Performance:** Participation through the week is based on consistency and performance. Weak performances are subbed out for the week in the event more subs are available. Zero or 1 star attacks will sit the next day unless there are no available rotations.\n:arrow: **Bonuses:** Bonuses are awarded based on the overall contribution of the player- filling war castles, war performances, strategy plannings at the war room and so forth. \n:arrow: **Absences:** Planned absences should be communicated in advance of CWL to plan accordingly. In case of emergencies, please let us know and we will adjust the lineup.",
+    "thumbnail": {
+        "url": "https://cdn.discordapp.com/attachments/764780425465298968/974334091644256286/LeagueMedal.png"
+    },
+    "image": {
+        "url": "https://cdn.discordapp.com/attachments/842741907720896512/842806312386428948/gif.gif"
+    },
+    "color": 16711680
+}
+
+{
+    "title": "**Warnings & Removals**",
+    "description": "Failure to follow the mentioned rules will lead to warnings and sanctions; and potential removal from the clan.\n\n1️⃣ **1st Offence - Informal Warning**\nFor a first offence, we will reach out to confirm what happened. We understand you may not have known the rules. For a missed attack, perhaps a serious personal circumstance occurred. We will remind you of the rules and advise a formal warning will be issued next time.\n\n2️⃣ **2nd Offence - Formal Warning**\nIf you repeat an offence, but you have never had an official warning, we will issue a formal warning with the `!locker` command for traceability on your server profile.\n\n🔁 **Repeat Offence - Given Grace**\nIf this is a repeat offence but it hasn't happened in a long time or there is reasonable justification, the leadership team may agree to give you grace.\n\n❌ **Repeat Offence - Removal**\nIf this is a repeat offence within a short timeframe, or there are multiple other warnings for you, the leadership team may decide to remove you. You will be kicked from the clan(s) and server, and you will receive a Discord DM explaining why you have been kicked.\n\n🚨 **Rules are Tougher during CWL**\nGiven the importance of CWL, our tolerance is lower for any form of infraction. The leadership team may choose to take stricter action at any time, including immediate removal.\n",
+    "thumbnail": {
+        "url": "https://cdn.discordapp.com/attachments/764780425465298968/974362272472399932/red-beard-pirate-unscreen.gif"
+    },
+    "image": {
+        "url": "https://cdn.discordapp.com/attachments/842741907720896512/842806312386428948/gif.gif"
+    },
+    "color": 16711680
+}
+
+
+//welcome
+{
+    "description": "*Well well well, who do we have here? A new recruit? Oh, thought you were a scallywag! anyways, \nAhoy there! Welcome to Reddit Pirates!*\n\n*Make sure that you don't get lost here in this vast ocean of clans scattered across clash of clans.*\n** **\n*Afterall, now that you're here, why don't you snuggle into our fleet and make yourself comfortable?*\n\n*Ermmm... let's see... aha! got it, here's the __list of clans__ we've got for you to find yourself a bunk in -* <#973912162022064138> \n\n*We classify new recruits based on their __town hall levels__, which can be found here -* <#526440723005046785> \n** **\n*Arrr! you're almost there, mate-y! Let's see how things work around here shall we?*\n\n*A smooth sea never made a skilled pirate, here at Reddit Pirates, we follow a set of standard rules to make exceptional pirates- make sure to __read through the rules__ here -* <#973912318494777355>\n** **\n*Home is where the anchor drops... Ready to join our fleet and distinguish yourself among the best? Drop a __reaction below__ and enter the server!*\n\n\n** **\n** **\n__**TL;DR?**__\n📍 React to this message.\n📍 Open an application ticket.\n📍 Send screenshots of your base & profile.\n📍 Ping the respective clan's leadership.\n📍 Type in `?password` to get access to the password link, read through the rules section and find out the password, once that's done, type it in the channel.\n\n",
+    "thumbnail": {
+        "url": "https://cdn.discordapp.com/attachments/962341885576364092/973926060368465920/a-4c6a69b1c4f6feda26b38164e184-unscreen.gif"
+    },
+    "image": {
+        "url": "https://cdn.discordapp.com/attachments/764780425465298968/975831341461561384/pirate-banner-3-removebg-preview.png"
+    },
+    "color": 16711680
+}
+//?rr add 973912413936181328 975846335943151640 
+//:PandaPirate: Welcome
+
+//randoms
+{
+    "title": "Vista Ridge Family Application",
+    "description": "We are excited to meet you! If you are interested in joining our clans or being a part of our wonderful community, apply today.  \r\n\r\n__**Application Process**__\r\nThe following are the steps in our clan application process:\r\n\r\n<a:vr_a_arrowright3:933454800442507334> **Apply:** Click your chosen \"Apply\" button and a channel will be created for your interview.\r\n<a:vr_a_arrowright3:933454800442507334> **Questions:** For the application, you will have to answer a few short questions.\r\n<a:vr_a_arrowright3:933454800442507334> **Interview:** For the interview, we will engage in a short Q&A for any questions we have / you have.\r\n<a:vr_a_arrowright3:933454800442507334> **Rules Quiz:** To join our clans, you will be asked to complete our quiz to ensure there are no concerns with our rules.\r\n<a:vr_a_arrowright3:933454800442507334> **Join:** You will be welcomed on Discord and in-game, if applicable.\r\n\r\n<a:vr_a_flashingcheck:818920225054392340> **Evaluations**\r\nTH14 players will be subject to an FC evaluation. Lower TH players may be subject to an FC evaluation depending on our recruitment needs.",
+    "color": "hsl(194, calc(var(--saturation-factor, 1) * 66.7%), 61.2%)",
+    "image": {
+        "url": "http://www.qualityperspectives.ca/wordpress/wp-content/uploads/2022/01/shutterstock_457882252.jpg",
+        "proxyURL": "https://images-ext-2.discordapp.net/external/rlOTEqvDSGX9ETyjE9hDgcPjNiOXwCitSqAgE0EsT7U/http/www.qualityperspectives.ca/wordpress/wp-content/uploads/2022/01/shutterstock_457882252.jpg",
+        "width": 1920,
+        "height": 1080
+    },
+    "fields": []
+}
+
+
+{
+    "title": "Reddit Zen",
+    "description": "**Accepts Townhall 13-14**\n> - Mandatory Weekend Wars\n> - War search: Fridays at 8p, Eastern\n> - Must FC upon entry\n\nMinimum Townhall Requirements:\n\n**Townhall 14** <:townhall14:829071576275877988>\n> - Max th13 Base/Troops/Spells\n> - Heroes Levels: Queen 70+ / King 70+ / Warden 50+ / Royal Champion: 20+\n\n**Townhall 13** <:townhall13:710608868480253992>\n> - Max th12 Base/Troops/Spells\n> - Heroes Levels: Queen 65+ / King 65+ / Warden 40+",
+    "footer": {
+        "text": "React to Apply to Reddit Zen",
+        "iconURL": "https://cdn.discordapp.com/attachments/814987321471402004/827397547060494346/Down_Arrow.png",
+        "iconProxyURL": "https://media.discordapp.net/attachments/814987321471402004/827397547060494346/Down_Arrow.png"
+    },
+    "color": "hsl(223, calc(var(--saturation-factor, 1) * 6.9%), 19.8%)",
+    "thumbnail": {
+        "url": "https://api-assets.clashofclans.com/badges/512/dBujq3w_K8rfIWMXVnoECFjrXpyZ9FPeCLGXOGmfczA.png",
+        "proxyURL": "https://images-ext-2.discordapp.net/external/XvHJXASgFB_H7L9R4w2eSK04F0YgUyc8xxqaixxiJWg/https/api-assets.clashofclans.com/badges/512/dBujq3w_K8rfIWMXVnoECFjrXpyZ9FPeCLGXOGmfczA.png",
+        "width": 512,
+        "height": 512
+    },
+    "image": {
+        "url": "https://cdn.discordapp.com/attachments/809874883768614922/961791961914826802/th13-14.png",
+        "proxyURL": "https://media.discordapp.net/attachments/809874883768614922/961791961914826802/th13-14.png",
+        "width": 800,
+        "height": 100
+    },
+    "fields": []
+}
+
+
+//requirements stuff
+
+{
+    "image": {
+        "url": "https://cdn.discordapp.com/attachments/789678733312524328/976228811387588689/standard.gif"
+    },
+    "color": 16711680
+}
+
+{
+    "url": "https://link.clashofclans.com/en?action=OpenClanProfile&tag=9RCRVL8V",
+    "title": "Reddit Pirates",
+    "description": "**Accepting TH 12-14**\n> ► Minimum Wars/Season - 3\n> ► General Rules - <#973912318494777355>\n> ► War Cycle: B2B\n\n__*Minimum Townhall Requirements:*__\n\n**Townhall 14** :TH14:\n> ► Max TH13 Defence/Troops/Spells\n> ► Hero Levels: King/Queen/Warden/Champion - 75/75/50/25\n\n**Townhall 13** :TH13:\n> ► Max TH12 Defence/Troops/Spells\n> ► Hero Levels: King/Queen/Warden - 65/65/40\n\n**Townhall 12 (near max)** :TH12:\n> ► Max TH11 Defence/Troops/Spells\n> ► Hero Levels: King/Queen/Warden - 65/65/40",
+    "thumbnail": {
+        "url": "https://api-assets.clashofclans.com/badges/200/2avGGTGMjQ_nxnE5ZZlB6Xk6ujYkm91o7uCqEx37Ox0.png"
+    },
+    "image": {
+        "url": "https://cdn.discordapp.com/attachments/973919160402853918/976193832502824981/unknown.png"
+    },
+    "color": 59647
+}
+
+{
+    "url": "https://link.clashofclans.com/en?action=OpenClanProfile&tag=2Y09LV28",
+    "title": "Parallax",
+    "description": "**Accepting TH 11 & 12**\n> ► Minimum Wars/Season - 3\n> ► General Rules - <#973912318494777355>\n> ► War Cycle: Mon/Wed/Fri at *6pm UTC*\n\n__*Minimum Townhall Requirements:*__\n\n**Townhall 12** :TH12:\n> ► Max TH11 Defence/Troops/Spells\n> ► Hero Levels: King/Queen/Warden - 50/50/20\n\n**Townhall 11** :TH11:\n> ► Max TH10 Defence/Troops/Spells\n> ► Hero Levels: King/Queen - 40/40\n",
+    "thumbnail": {
+        "url": "https://api-assets.clashofclans.com/badges/200/gF1wdSrH72cPmAc9LG41nRZoUdI1apsF0ZxxEXtxVoA.png"
+    },
+    "image": {
+        "url": "https://cdn.discordapp.com/attachments/784431079029080094/993287391244714074/unknown.png"
+    },
+    "color": 46335
+}
+
+{
+    "url": "https://link.clashofclans.com/en?action=OpenClanProfile&tag=GYR0RRJ",
+    "title": "Royal Pirates",
+    "description": "**Accepting TH 7-10**\n> ► Minimum Wars/Season - 4\n> ► General Rules - <#973912318494777355>\n> ► War Cycle: Mon/Wed/Fri at *6pm UTC*\n\n__*Minimum Townhall Requirements:*__\n\n**Townhall 10** :TH10:\n> ► Max TH9 Defence/Troops/Spells\n> ► Hero Levels: King/Queen - 25/25\n\n**Townhall 9** :TH9:\n> ► Max TH8 Defence/Troops/Spells\n> ► Hero Levels: King - 10\n\n**Townhall 8** :TH8:\n> ► Max TH7 Defence/Troops/Spells\n> ► Hero Levels: King - 5\n\n**Townhall 7** :TH7:\n> ► Max TH6 Defence/Troops/Spells\n> ► Hero Levels: King - 1\n** **\n\n*We are less concerned with your base / troops / heroes as you reach TH8 (although egregious rushing is still not allowed)* \n*However, TH8 is where rushing needs to stop and we expect you to fully max TH8 before going to TH9*",
+    "thumbnail": {
+        "url": "https://api-assets.clashofclans.com/badges/200/D-4pENmc5xSGPU2KWtJBa7dSjHj3hX42uLDUQ4zWPIo.png"
+    },
+    "image": {
+        "url": "https://cdn.discordapp.com/attachments/764780425465298968/976216708945698836/unknown.png"
+    },
+    "color": 26367
+}
+
+{
+    "url": "https://link.clashofclans.com/en?action=OpenClanProfile&tag=2YCLYPPL8",
+    "title": "Rogue Pirates",
+    "description": "**Accepting TH 11-14**\n> ► Minimum War Weight: TH11\n> ► General Rules - <#973912318494777355>\n> ► FWA Layouts - <#844414358904635404>\n> ► War Cycle: B2B - 💎FWA💎 Sync\n\n__*Minimum Townhall Requirements:*__\n\n**Townhall 11** :TH11:\n> ► FWA Base Mandatory.\n> ► War Weight: 90 ≤ 110\n\n**Townhall 12** :TH12:\n> ► FWA Base Mandatory.\n> ► War Weight: 100 ≤ 120\n\n**Townhall 13** :TH13:\n> ► FWA Base Mandatory.\n> ► War Weight: 110 ≤ 130\n\n**Townhall 14** :TH14:\n> ► FWA Base Mandatory.\n> ► War Weight: 120 ≤ 140\n** **\n\n*We are less concerned with your base / troops / heroes as long as you have the war weight of a TH11. To know your war weight, send a FC, note down the gold at your TH, multiply by 5, divide by a 100.*",
+    "thumbnail": {
+        "url": "https://api-assets.clashofclans.com/badges/200/z0lQQHgrILAY-888t6d0PsamKs8xX8NmTOK9JMunyeM.png"
+    },
+    "image": {
+        "url": "https://cdn.discordapp.com/attachments/764780425465298968/976220945108852746/unknown.png"
+    },
+    "color": 6970056
+}
+
+{
+     "image": {
+         "url": "https://cdn.discordapp.com/attachments/764780425465298968/976230156958052433/standard_3_1.gif"
+     },
+     "color": 16711680
+}
+
+//apply stuff 
+{
+    "description": "Sailor! Welcome, if you're here to distinguish yourself among the best in the ocean, apply now!\n\n__**Application Process**__\nThe following are the steps in our clan application process:\n\n:bullet: **Apply:** React below to open a ticket.\n:bullet: **Pictures:** Send pictures of your base & profile.\n:bullet: **Clan:** State what clan you're looking to apply for.\n:bullet: **Introduction:** A couple of attack strategies that you'd like to use.\n:bullet: **Join:** You will be accepted on Discord and in-game, if applicable.\n\n:flashcheck: **Password**\nAll RCS clans require a password to enter, to find out the password, type in - `?password` and have a read through the rules section, once you find the password, type it in the channel and the bot will verify it. ",
+    "thumbnail": {
+        "url": "https://cdn.discordapp.com/attachments/962341885576364092/973926060368465920/a-4c6a69b1c4f6feda26b38164e184-unscreen.gif"
+    },
+    "image": {
+        "url": "https://cdn.discordapp.com/attachments/764780425465298968/976615544650342460/standard.gif"
+    },
+    "color": 16711680,
+    "footer": {
+        "icon_url": "https://images-ext-2.discordapp.net/external/sfdhgAbhuZDdUjZUdLywcV-4jbtbaangKlgRByWGPzE/https/media1.giphy.com/media/hJl9v892gjwLEdHoZv/giphy.gif",
+        "text": "React to open a ticket!"
+    }
+}
+
+
+//custom commands
+{
+    "title": "Friendly Challenge Clans",
+    "description": "Various Clans for Townhall Level Friendly Challenges",
+    "footer": {
+        "text": "Remember to use password when you return!"
+    },
+    "color": "hsl(277, calc(var(--saturation-factor, 1) * 58.3%), 40.4%)",
+    "thumbnail": {
+        "url": "https://cdn.discordapp.com/attachments/356051234513354753/826644136081227786/CoC_Shield_LRG.png",
+        "proxyURL": "https://media.discordapp.net/attachments/356051234513354753/826644136081227786/CoC_Shield_LRG.png",
+        "width": 400,
+        "height": 341
+    },
+    "fields": [{
+        "name": "TH9 FC Clans",
+        "value": "**大黒屋 フレチャth9専用**\n[Click to visit the th9 FC Clan](https://link.clashofclans.com/en?action=OpenClanProfile&tag=L2RJ2LP9)",
+        "inline": true
+    }, {
+        "name": "TH10 FC clans",
+        "value": "[Click to visit the th10 Training Clan](https://link.clashofclans.com/?action=OpenClanProfile&tag=2PLVUJPPL)\n\n[Click to visit the th10 only fc clan](https://link.clashofclans.com/en?action=OpenClanProfile&tag=2YJUJCRY2)",
+        "inline": false
+    }, {
+        "name": "TH11 FC clans",
+        "value": "[Click to visit the th11 FC Clan](https://link.clashofclans.com/?action=OpenClanProfile&tag=29QVLJLJ2)",
+        "inline": true
+    }, {
+        "name": "TH12 FC clans",
+        "value": "[Click to visit the th12 FC Clan](https://link.clashofclans.com/en?action=OpenClanProfile&tag=2Y0CVPJJ9)",
+        "inline": false
+    }, {
+        "name": "TH13 FC clans",
+        "value": "**フレチャ69部屋**\n[Click to visit the th13 FC Clan](https://link.clashofclans.com/?action=OpenClanProfile&tag=JVLLCG2J)\n\n**中国友谊战营**\n[Click to visit the th13 FC Clan](https://link.clashofclans.com/?action=OpenClanProfile&tag=299290898)",
+        "inline": true
+    }, {
+        "name": "TH14 FC clans",
+        "value": "**フレチャth11【元】only**\n[Click to visit the th14 FC Clan](https://link.clashofclans.com/?action=OpenClanProfile&tag=22GV8JGVU)",
+        "inline": false
+    }]
+}
+

@@ -1,11 +1,11 @@
-#==========================================================================================================================
+# ==========================================================================================================================
 #  ?                                                     ABOUT
-#  @author         :  4bdul4ziz & h0lycow 
+#  @author         :  4bdul4ziz & h0lycow
 #  @email          :  bb.abdulaziz@gmail.com & subhranshupati0412@gmail.com
-#  @repo           :  
+#  @repo           :
 #  @createdOn      :  25th Feb 2022|01:15AM
 #  @description    :  HashCode2022 Submission
-#==========================================================================================================================
+# ==========================================================================================================================
 
 
 import itertools
@@ -20,12 +20,9 @@ from collections import defaultdict
 from matplotlib.style import available
 
 
-
-
-
-#==========================================================================================================================
+# ==========================================================================================================================
 #                                                     CLASSES
-#==========================================================================================================================
+# ==========================================================================================================================
 
 PATHS = {
     "a": "input_data/a_an_example.in.txt",
@@ -44,7 +41,7 @@ max_score = 0
 
 
 class Contributor:
-    __slots__ = ['name', 'skill_count', "skills"]
+    __slots__ = ["name", "skill_count", "skills"]
 
     def __init__(self, name, skills):
         self.name = name
@@ -52,11 +49,11 @@ class Contributor:
         self.skills = skills
 
     def __repr__(self):
-        return f'Contributor(name={self.name}, skill_count={self.skill_count})'
+        return f"Contributor(name={self.name}, skill_count={self.skill_count})"
 
 
 class Project:
-    __slots__ = ['name', 'days', "score", "best_before", "skills", "roles"]
+    __slots__ = ["name", "days", "score", "best_before", "skills", "roles"]
 
     def __init__(self, name, days, score, best_before, skills):
         self.name = name
@@ -67,7 +64,7 @@ class Project:
         self.roles = len(skills)
 
     def __repr__(self):
-        return f'Project(name={self.name}, days={self.days}, score={self.score}, best_before={self.best_before}, roles={self.roles})'
+        return f"Project(name={self.name}, days={self.days}, score={self.score}, best_before={self.best_before}, roles={self.roles})"
 
     def value(self, current_day=0):
         global max_days, max_best_before, max_score
@@ -84,7 +81,7 @@ class Project:
         # if max_level <= 7:
         #     score = score * 10
 
-        score_per_day = score/self.days
+        score_per_day = score / self.days
 
         # todo add max level here
 
@@ -155,8 +152,9 @@ def solve(INPUT_FILE):
             max_days = max(max_days, int(days))
             max_best_before = max(max_best_before, int(best_before))
             max_score = max(max_score, int(score))
-            projects.append(Project(name, int(days), int(
-                score), int(best_before), skills))
+            projects.append(
+                Project(name, int(days), int(score), int(best_before), skills)
+            )
 
         # print(contributors)
         # print(projects)
@@ -189,8 +187,7 @@ def solve(INPUT_FILE):
             team = [None] * len(skills_needed)
             for i, (sk, level) in enumerate(skills_needed):
                 print(sk)
-                have_skill = [
-                    c for c, s in people_by_skill[sk].items() if s >= level]
+                have_skill = [c for c, s in people_by_skill[sk].items() if s >= level]
                 possible = people_available.intersection(have_skill)
                 # take someone!
                 if len(possible) > 0:
@@ -202,24 +199,24 @@ def solve(INPUT_FILE):
             highest_skills_wo = [None] * len(skills_needed)
             for current_pos, _ in enumerate(team):
                 highest_skill = defaultdict(int)
-                for c in list(team[0:current_pos] + team[current_pos+1:]):
+                for c in list(team[0:current_pos] + team[current_pos + 1 :]):
                     if c is None:
                         continue
                     contributer = contributors[c]
                     for sk, level in contributer.skills.items():
                         highest_skill[sk] = max(level, highest_skill[sk])
                 highest_skills_wo[current_pos] = highest_skill
-            #print(highest_skills_wo)
+            # print(highest_skills_wo)
 
             # Team (mentees)
             for current_pos, (sk, level) in enumerate(skills_needed):
-                have_skill = [
-                    c for c, s in people_by_skill[sk].items() if s >= level]
+                have_skill = [c for c, s in people_by_skill[sk].items() if s >= level]
                 if level == 1:
                     can_be_mentee = all_people - set(have_skill)
                 else:
                     can_be_mentee = [
-                        c for c, s in people_by_skill[sk].items() if s == level-1]
+                        c for c, s in people_by_skill[sk].items() if s == level - 1
+                    ]
                 possible_mentees = people_available.intersection(can_be_mentee)
                 mentor_levels = highest_skills_wo[current_pos]
                 if mentor_levels[sk] >= level and len(possible_mentees) > 0:
@@ -242,7 +239,7 @@ def solve(INPUT_FILE):
                 # we have a match
                 print(team)
                 for c in team:
-                    people_become_available[day+p.days].append(c)
+                    people_become_available[day + p.days].append(c)
                 executed_projects.append(ExecutedProject(p.name, team))
                 remaining_projects.remove(p)
             else:
@@ -278,37 +275,58 @@ def get_best_project(dispo_projects, cost_function):
     return best_project
 
 
-
-def Assignments(DATA,PROJ):
-    #create a list of all the projects
-    projects=[]
+def Assignments(DATA, PROJ):
+    # create a list of all the projects
+    projects = []
     for i in range(len(PROJ)):
-        project=Project(PROJ[i]['name'],PROJ[i]['duration'],PROJ[i]['score'],PROJ[i]['best_before'])
-        for j in range(len(PROJ[i]['roles'])):
-            project.add_role(PROJ[i]['roles'][j])
+        project = Project(
+            PROJ[i]["name"],
+            PROJ[i]["duration"],
+            PROJ[i]["score"],
+            PROJ[i]["best_before"],
+        )
+        for j in range(len(PROJ[i]["roles"])):
+            project.add_role(PROJ[i]["roles"][j])
         projects.append(project)
-    #create a list of all the contributors
-    contributors=[]
+    # create a list of all the contributors
+    contributors = []
     for i in range(len(DATA)):
-        contributor=Contributor(DATA[i]['name'],DATA[i]['skillCnt'])
-        for j in range(len(DATA[i]['roles'])):
-            contributor.add_role(DATA[i]['roles'][j])
+        contributor = Contributor(DATA[i]["name"], DATA[i]["skillCnt"])
+        for j in range(len(DATA[i]["roles"])):
+            contributor.add_role(DATA[i]["roles"][j])
         contributors.append(contributor)
-    #assign the projects to the contributors
+    # assign the projects to the contributors
     for i in range(len(projects)):
         for j in range(len(projects[i].roles)):
             for k in range(len(contributors)):
-                if projects[i].roles[j]['skill'] in contributors[k].skills:
-                    if contributors[k].roles[projects[i].roles[j]['skill']]>=projects[i].roles[j]['level']:
-                        projects[i].roles[j]['assigned']=contributors[k]
-                        contributors[k].roles[projects[i].roles[j]['skill']]-=projects[i].roles[j]['level']
+                if projects[i].roles[j]["skill"] in contributors[k].skills:
+                    if (
+                        contributors[k].roles[projects[i].roles[j]["skill"]]
+                        >= projects[i].roles[j]["level"]
+                    ):
+                        projects[i].roles[j]["assigned"] = contributors[k]
+                        contributors[k].roles[
+                            projects[i].roles[j]["skill"]
+                        ] -= projects[i].roles[j]["level"]
                         break
-    #print the assignments
+    # print the assignments
     for i in range(len(projects)):
-        print('Project: {}\nDuration: {}\nScore: {}\nBest before: {}\nRoles: {}'.format(projects[i].name, projects[i].duration, projects[i].score, projects[i].best_before, projects[i].roles))
+        print(
+            "Project: {}\nDuration: {}\nScore: {}\nBest before: {}\nRoles: {}".format(
+                projects[i].name,
+                projects[i].duration,
+                projects[i].score,
+                projects[i].best_before,
+                projects[i].roles,
+            )
+        )
     for i in range(len(contributors)):
-        print('Contributor: {}\nSkills: {}\nRoles: {}'.format(contributors[i].name, contributors[i].skills, contributors[i].roles))
-        
+        print(
+            "Contributor: {}\nSkills: {}\nRoles: {}".format(
+                contributors[i].name, contributors[i].skills, contributors[i].roles
+            )
+        )
+
 
 class Mentors(object):
     def __init__(self, name, skills):
@@ -328,11 +346,10 @@ class Mentors(object):
                 skill.level += 1
 
     def __str__(self):
-        return 'Mentor: {}\nSkills: {}'.format(self.name, self.skills)
+        return "Mentor: {}\nSkills: {}".format(self.name, self.skills)
 
 
-
-class contributor():
+class contributor:
     def __init__(self, name, skills):
         self.name = name
         self.skills = skills
@@ -346,7 +363,9 @@ class contributor():
             self.skills[role.skill] += 1
 
     def __str__(self):
-        return 'Contributor: {}\nSkills: {}\nMentored by: {}'.format(self.name, self.skills, self.mentored_by)
+        return "Contributor: {}\nSkills: {}\nMentored by: {}".format(
+            self.name, self.skills, self.mentored_by
+        )
 
 
 def contributor_can_be_assigned_to_project(contributor, project):
@@ -355,45 +374,54 @@ def contributor_can_be_assigned_to_project(contributor, project):
             return True
     return False
 
-#roll func
+
+# roll func
 
 
-
-def roll_project_list_project_possible(contributors, projects, cost_function, max_iter=1e5):
+def roll_project_list_project_possible(
+    contributors, projects, cost_function, max_iter=1e5
+):
 
     trajectory = str("\n")
     t = 0
-    while (not len(projects) > 0) and t <max_iter:
+    while (not len(projects) > 0) and t < max_iter:
         t += 1
         update_t(projects, contributors, t)
         dispo_projects = project_possible_list(projects, contributors)
-        while len(dispo_projects)>0 :
-            best_project = get_best_project(dispo_projects, cost_function) # Return a class Project element
-            best_contributors = get_best_contributor(best_project, contributors)       # Need a list of contributors, with role 1 in position 1 and so one   
+        while len(dispo_projects) > 0:
+            best_project = get_best_project(
+                dispo_projects, cost_function
+            )  # Return a class Project element
+            best_contributors = get_best_contributor(
+                best_project, contributors
+            )  # Need a list of contributors, with role 1 in position 1 and so one
             update_choose(projects, contributors, best_project, best_contributors)
             trajectory = write_trajectory(trajectory, best_project, best_contributors)
 
     return trajectory
 
 
-def roll_project_list_project_contributor_possible(contributors, projects, cost_function, max_iter=1e5):
+def roll_project_list_project_contributor_possible(
+    contributors, projects, cost_function, max_iter=1e5
+):
 
-  trajectory = str("\n")
-  t = 0
-  while (not len(projects) > 0) and t < max_iter:
-      t += 1
-      update_t(projects, contributors, t)
-      dispo_projects, dispo_contributors = project_contributors_possible_list(
-          projects, contributors)
-      while len(dispo_projects) > 0:
-          best_project, best_contributor = get_best_project_and_contributors(
-              dispo_projects, contributors, cost_function)
+    trajectory = str("\n")
+    t = 0
+    while (not len(projects) > 0) and t < max_iter:
+        t += 1
+        update_t(projects, contributors, t)
+        dispo_projects, dispo_contributors = project_contributors_possible_list(
+            projects, contributors
+        )
+        while len(dispo_projects) > 0:
+            best_project, best_contributor = get_best_project_and_contributors(
+                dispo_projects, contributors, cost_function
+            )
 
-          update_choose(projects, contributors, best_project, best_contributor)
-          trajectory = write_trajectory(
-              trajectory, best_project, best_contributor)
+            update_choose(projects, contributors, best_project, best_contributor)
+            trajectory = write_trajectory(trajectory, best_project, best_contributor)
 
-  return trajectory
+    return trajectory
 
 
 def cost_function(project, persons):
@@ -511,7 +539,7 @@ def LearningOpportunity(projects, contributors):
             if contributor.can_be_assigned_to_role(project.roles):
                 contributor.improve_skill_level(project.roles)
     return contributors
-                
+
 
 def Mentoring(projects, contributors):
     for project in projects:
@@ -522,7 +550,7 @@ def Mentoring(projects, contributors):
     return contributors
 
 
-#function to assign a mentor to a contributor whose skill is below the required level
+# function to assign a mentor to a contributor whose skill is below the required level
 def assign_mentor(projects, contributors):
     for project in projects:
         for mentor in contributors:
@@ -561,8 +589,7 @@ def compute_skills(contributors, projects):
     return pd.DataFrame(skills_data).fillna(0)
 
 
-
-#function to level up the contributor abd mentor
+# function to level up the contributor abd mentor
 def levelUp(projects, contributors):
     for project in projects:
         for contributor in contributors:
@@ -580,19 +607,16 @@ def levelUp(projects, contributors):
     return contributors
 
 
-
-
 def formatSubmission(projects, contributors):
     names = []
-    submissionFile = open('submission.txt', 'w')
-    Description = '{}\n'.format(len(projects))
+    submissionFile = open("submission.txt", "w")
+    Description = "{}\n".format(len(projects))
     for project in projects:
         names.append(project.name)
     for contributor in contributors:
         names.append(contributor.name)
     return names
-    
-        
+
 
 class Submission:
     def __init__(self, projects, contributors):
@@ -604,9 +628,15 @@ class Submission:
         self.fillingRoles = fillingRoles(projects, contributors)
 
     def __str__(self):
-        return 'Projects: {}\nContributors: {}\nAssignments: {}\nLearning Opportunity: {}\nMentoring: {}\nFilling Roles: {}'.format(self.projects, self.contributors, self.assignments, self.LearningOpportunity, self.Mentoring, self.fillingRoles)
-        
-    
+        return "Projects: {}\nContributors: {}\nAssignments: {}\nLearning Opportunity: {}\nMentoring: {}\nFilling Roles: {}".format(
+            self.projects,
+            self.contributors,
+            self.assignments,
+            self.LearningOpportunity,
+            self.Mentoring,
+            self.fillingRoles,
+        )
+
 
 class Scoring:
     def __init__(self, projects, contributors):
@@ -623,7 +653,8 @@ class Scoring:
         self.valid = True
         self.validate()
 
-#function to calculate the score after completion including penalties
+
+# function to calculate the score after completion including penalties
 def calculateScore(self):
     for project in self.projects:
         if project.completed:
@@ -632,16 +663,19 @@ def calculateScore(self):
                 self.penalty += project.best_before - project.completed_on
     self.totalScore = self.score - self.penalty
     return self.totalScore
-#function to check if the level ups are valid with respect to the project difficulty
+
+
+# function to check if the level ups are valid with respect to the project difficulty
 def validate(self):
     for project in self.projects:
         if project.completed:
             for contributor in project.assigned_contributors:
-                if contributor.skills[project.roles[0].skill] < project.roles[0].skill_level:
+                if (
+                    contributor.skills[project.roles[0].skill]
+                    < project.roles[0].skill_level
+                ):
                     self.valid = False
     return self.valid
-
-
 
 
 @dataclass
@@ -669,7 +703,7 @@ class Project:
         )
 
 
-'''
+"""
 projects = []
     projects.append(Project("WebServer", 10, 5, 10, [Role("Logging", 1), Role("WebChat", 1)]))
     projects.append(Project("Logging", 10, 5, 10, [Role("WebChat", 1)]))
@@ -701,13 +735,13 @@ projects = []
     print(scoring.valid)
     print(scoring.validate())
     print(scoring.calculateScore())
-'''
+"""
 
 
 def emotionalDamage(path):
     contributors = []
     projects = []
-    with open(path, 'r') as f:
+    with open(path, "r") as f:
         f_contributors, f_projects = f.readline().split(" ")
         for i in range(int(f_contributors)):
             name, f_skills = f.readline().replace("\n", "").split(" ")
@@ -717,28 +751,22 @@ def emotionalDamage(path):
                 skills[skill] = int(level)
             contributors.append({})
             g_contributor = contributors[-1]
-            g_contributor["name"], f_skills = f.readline().replace(
-                "\n", "").split(" ")
+            g_contributor["name"], f_skills = f.readline().replace("\n", "").split(" ")
             for k in range(int(f_skills)):
                 skillName, skillLev = f.readline().split(" ")
                 g_contributor[skillName] = int(skillLev)
             k_contributor = pd.DataFrame(contributors).fillna(0)
 
         for i in range(int(f_projects)):
-            (
-                project_name,
-                project_length,
-                score,
-                best_before,
-                f_roles,
-            ) = f.readline().replace("\n", "").split(" ")
+            (project_name, project_length, score, best_before, f_roles,) = (
+                f.readline().replace("\n", "").split(" ")
+            )
             roles = []
             for j in range(int(f_roles)):
                 skill_name, skill_level = f.readline().replace("\n", "").split(" ")
                 roles.append(Role(skill_name, skill_level))
             projects.append(
-                Project(project_name, project_length,
-                        score, best_before, roles)
+                Project(project_name, project_length, score, best_before, roles)
             )
 
     print("contributors: \n", k_contributor)
@@ -761,13 +789,11 @@ if __name__ == "__main__":
         solve(inputfile)
 
 
-
-
-#==========================================================================================================================
+# ==========================================================================================================================
 #                                                     EXTRAS
-#==========================================================================================================================
+# ==========================================================================================================================
 
-'''
+"""
 There are M projects. Each project is described by:
 
 its name
@@ -873,4 +899,4 @@ Each project that is completed successfully receives its assigned score, as defi
 
 The total score is the sum of scores for all correctly completed projects.
 
-'''
+"""

@@ -1,8 +1,6 @@
 import requests
 
-url = "https://discord.com/api/webhooks/896126003464794142/W4Jf9FxxJ_YyZo2orTwJo5CFmcn-SIpkzOlT5BteUcx-egyRdFYMQ8q_fgG0ImjB-Kek"
+url = "https://canary.discord.com/api/webhooks/978369026998796329/0jRhqTfZXMl-2Sr8jXeE2zIA-N0KX1E3kqOum0pzFOwWlS8_pyp_qdTXlGekLYTLF88v"
 while True:
     message = input()
-    r = requests.post(url, data = {"content": message})
-    
-
+    r = requests.post(url, data={"content": message})

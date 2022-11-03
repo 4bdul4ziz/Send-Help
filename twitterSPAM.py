@@ -11,16 +11,14 @@ time.sleep(7)
 
 while i:
 
-    mouse = Controller() #Clicking the typing sequence
+    mouse = Controller()  # Clicking the typing sequence
 
     mouse.position = (398, 161)
 
     mouse.press(Button.left)
     mouse.release(Button.left)
 
-
-
-    text = ['#enoughvit']  #Typing the shit
+    text = ["#enoughvit"]  # Typing the shit
 
     keyboard = Controller()
 
@@ -32,9 +30,7 @@ while i:
 
     time.sleep(3)
 
-
-
-    mouse.position = (857, 221)    #Tweeting it
+    mouse.position = (857, 221)  # Tweeting it
 
     mouse.press(Button.left)
     mouse.release(Button.left)
