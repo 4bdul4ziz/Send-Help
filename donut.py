@@ -12,7 +12,6 @@ def main():
     clear = "cls"
     if os.name == "posix":
         clear = "clear"
-
     os.system(clear)
     while True:
         z = [0 for _ in range(4 * height * width)]
@@ -61,12 +60,7 @@ def main():
 
         # prints
         os.system(clear)
-        for index, char in enumerate(screen):
-            if index % width == 0:
-                print()
-            else:
-                print(char, end="")
-
+        print("".join(screen))                          
         # increments
         a += 0.04
         b += 0.02
