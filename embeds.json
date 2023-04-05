@@ -104,113 +104,20 @@
 //?rr add 973912413936181328 975846335943151640 
 //:PandaPirate: Welcome
 
-//randoms
-{
-    "title": "Vista Ridge Family Application",
-    "description": "We are excited to meet you! If you are interested in joining our clans or being a part of our wonderful community, apply today.  \r\n\r\n__**Application Process**__\r\nThe following are the steps in our clan application process:\r\n\r\n<a:vr_a_arrowright3:933454800442507334> **Apply:** Click your chosen \"Apply\" button and a channel will be created for your interview.\r\n<a:vr_a_arrowright3:933454800442507334> **Questions:** For the application, you will have to answer a few short questions.\r\n<a:vr_a_arrowright3:933454800442507334> **Interview:** For the interview, we will engage in a short Q&A for any questions we have / you have.\r\n<a:vr_a_arrowright3:933454800442507334> **Rules Quiz:** To join our clans, you will be asked to complete our quiz to ensure there are no concerns with our rules.\r\n<a:vr_a_arrowright3:933454800442507334> **Join:** You will be welcomed on Discord and in-game, if applicable.\r\n\r\n<a:vr_a_flashingcheck:818920225054392340> **Evaluations**\r\nTH14 players will be subject to an FC evaluation. Lower TH players may be subject to an FC evaluation depending on our recruitment needs.",
-    "color": "hsl(194, calc(var(--saturation-factor, 1) * 66.7%), 61.2%)",
-    "image": {
-        "url": "http://www.qualityperspectives.ca/wordpress/wp-content/uploads/2022/01/shutterstock_457882252.jpg",
-        "proxyURL": "https://images-ext-2.discordapp.net/external/rlOTEqvDSGX9ETyjE9hDgcPjNiOXwCitSqAgE0EsT7U/http/www.qualityperspectives.ca/wordpress/wp-content/uploads/2022/01/shutterstock_457882252.jpg",
-        "width": 1920,
-        "height": 1080
-    },
-    "fields": []
-}
-
-
-{
-    "title": "Reddit Zen",
-    "description": "**Accepts Townhall 13-14**\n> - Mandatory Weekend Wars\n> - War search: Fridays at 8p, Eastern\n> - Must FC upon entry\n\nMinimum Townhall Requirements:\n\n**Townhall 14** <:townhall14:829071576275877988>\n> - Max th13 Base/Troops/Spells\n> - Heroes Levels: Queen 70+ / King 70+ / Warden 50+ / Royal Champion: 20+\n\n**Townhall 13** <:townhall13:710608868480253992>\n> - Max th12 Base/Troops/Spells\n> - Heroes Levels: Queen 65+ / King 65+ / Warden 40+",
-    "footer": {
-        "text": "React to Apply to Reddit Zen",
-        "iconURL": "https://cdn.discordapp.com/attachments/814987321471402004/827397547060494346/Down_Arrow.png",
-        "iconProxyURL": "https://media.discordapp.net/attachments/814987321471402004/827397547060494346/Down_Arrow.png"
-    },
-    "color": "hsl(223, calc(var(--saturation-factor, 1) * 6.9%), 19.8%)",
-    "thumbnail": {
-        "url": "https://api-assets.clashofclans.com/badges/512/dBujq3w_K8rfIWMXVnoECFjrXpyZ9FPeCLGXOGmfczA.png",
-        "proxyURL": "https://images-ext-2.discordapp.net/external/XvHJXASgFB_H7L9R4w2eSK04F0YgUyc8xxqaixxiJWg/https/api-assets.clashofclans.com/badges/512/dBujq3w_K8rfIWMXVnoECFjrXpyZ9FPeCLGXOGmfczA.png",
-        "width": 512,
-        "height": 512
-    },
-    "image": {
-        "url": "https://cdn.discordapp.com/attachments/809874883768614922/961791961914826802/th13-14.png",
-        "proxyURL": "https://media.discordapp.net/attachments/809874883768614922/961791961914826802/th13-14.png",
-        "width": 800,
-        "height": 100
-    },
-    "fields": []
-}
-
 
 //requirements stuff
 
-{
-    "image": {
-        "url": "https://cdn.discordapp.com/attachments/789678733312524328/976228811387588689/standard.gif"
-    },
-    "color": 16711680
-}
+{"image":{"url":"https://cdn.discordapp.com/attachments/789678733312524328/976228811387588689/standard.gif"},"color":16711680}
 
-{
-    "url": "https://link.clashofclans.com/en?action=OpenClanProfile&tag=9RCRVL8V",
-    "title": "Reddit Pirates",
-    "description": "**Accepting TH 12-14**\n> ► Minimum Wars/Season - 3\n> ► General Rules - <#973912318494777355>\n> ► War Cycle: B2B\n\n__*Minimum Townhall Requirements:*__\n\n**Townhall 14** :TH14:\n> ► Max TH13 Defence/Troops/Spells\n> ► Hero Levels: King/Queen/Warden/Champion - 75/75/50/25\n\n**Townhall 13** :TH13:\n> ► Max TH12 Defence/Troops/Spells\n> ► Hero Levels: King/Queen/Warden - 65/65/40\n\n**Townhall 12 (near max)** :TH12:\n> ► Max TH11 Defence/Troops/Spells\n> ► Hero Levels: King/Queen/Warden - 65/65/40",
-    "thumbnail": {
-        "url": "https://api-assets.clashofclans.com/badges/200/2avGGTGMjQ_nxnE5ZZlB6Xk6ujYkm91o7uCqEx37Ox0.png"
-    },
-    "image": {
-        "url": "https://cdn.discordapp.com/attachments/973919160402853918/976193832502824981/unknown.png"
-    },
-    "color": 59647
-}
+{"url":"https://link.clashofclans.com/en?action=OpenClanProfile&tag=9RCRVL8V","title":"Reddit Pirates","description":"**Accepting TH 13-15**\n> ► Minimum Wars/Season - 3\n> ► General Rules - <#973912318494777355>\n> ► War Cycle: B2B\n\n__*Minimum Townhall Requirements:*__\n\n**Townhall 15** :TH15:\n> ► Max TH14 Defence/Troops/Spells\n> ► Hero Levels: King/Queen/Warden/Champion - 80/80/80/30\n\n**Townhall 14** :TH14:\n> ► Max TH13 Defence/Troops/Spells\n> ► Hero Levels: King/Queen/Warden/Champion - 75/75/50/25\n\n**Townhall 13** :TH13:\n> ► Max TH12 Defence/Troops/Spells\n> ► Hero Levels: King/Queen/Warden/Champion - 75/75/50/25","thumbnail":{"url":"https://api-assets.clashofclans.com/badges/200/2avGGTGMjQ_nxnE5ZZlB6Xk6ujYkm91o7uCqEx37Ox0.png"},"image":{"url":"https://cdn.discordapp.com/attachments/789678733312524328/1075104461158088765/image-removebg-preview_1.png"},"color":59647}
 
-{
-    "url": "https://link.clashofclans.com/en?action=OpenClanProfile&tag=2Y09LV28",
-    "title": "Parallax",
-    "description": "**Accepting TH 11 & 12**\n> ► Minimum Wars/Season - 3\n> ► General Rules - <#973912318494777355>\n> ► War Cycle: Mon/Wed/Fri at *6pm UTC*\n\n__*Minimum Townhall Requirements:*__\n\n**Townhall 12** :TH12:\n> ► Max TH11 Defence/Troops/Spells\n> ► Hero Levels: King/Queen/Warden - 50/50/20\n\n**Townhall 11** :TH11:\n> ► Max TH10 Defence/Troops/Spells\n> ► Hero Levels: King/Queen - 40/40\n",
-    "thumbnail": {
-        "url": "https://api-assets.clashofclans.com/badges/200/gF1wdSrH72cPmAc9LG41nRZoUdI1apsF0ZxxEXtxVoA.png"
-    },
-    "image": {
-        "url": "https://cdn.discordapp.com/attachments/784431079029080094/993287391244714074/unknown.png"
-    },
-    "color": 46335
-}
+{"url":"https://link.clashofclans.com/en?action=OpenClanProfile&tag=2Y09LV28","title":"Parallax","description":"**Accepting TH 11.5-13**\n> ► Minimum Wars/Season - 3\n> ► General Rules - <#973912318494777355>\n> ► War Cycle: Mon/Wed/Fri at *6pm UTC*\n\n__*Minimum Townhall Requirements:*__\n\n**Townhall 13** :TH13:\n> ► Max TH12 Defence/Troops/Spells\n> ► Hero Levels: King/Queen/Warden - 65/65/40\n\n**Townhall 12** :TH12:\n> ► Max TH11 Defence/Troops/Spells\n> ► Hero Levels: King/Queen/Warden - 50/50/20\n\n**Townhall 11** :TH11:\n> ► Max TH10 Defence/Troops/Spells\n> ► Hero Levels: King/Queen/Warden - 50/50/20\n","thumbnail":{"url":"https://api-assets.clashofclans.com/badges/200/gF1wdSrH72cPmAc9LG41nRZoUdI1apsF0ZxxEXtxVoA.png"},"image":{"url":"https://cdn.discordapp.com/attachments/789678733312524328/1075105087980052620/image-removebg-preview_2.png"},"color":46335}
 
-{
-    "url": "https://link.clashofclans.com/en?action=OpenClanProfile&tag=GYR0RRJ",
-    "title": "Royal Pirates",
-    "description": "**Accepting TH 7-10**\n> ► Minimum Wars/Season - 4\n> ► General Rules - <#973912318494777355>\n> ► War Cycle: Mon/Wed/Fri at *6pm UTC*\n\n__*Minimum Townhall Requirements:*__\n\n**Townhall 10** :TH10:\n> ► Max TH9 Defence/Troops/Spells\n> ► Hero Levels: King/Queen - 25/25\n\n**Townhall 9** :TH9:\n> ► Max TH8 Defence/Troops/Spells\n> ► Hero Levels: King - 10\n\n**Townhall 8** :TH8:\n> ► Max TH7 Defence/Troops/Spells\n> ► Hero Levels: King - 5\n\n**Townhall 7** :TH7:\n> ► Max TH6 Defence/Troops/Spells\n> ► Hero Levels: King - 1\n** **\n\n*We are less concerned with your base / troops / heroes as you reach TH8 (although egregious rushing is still not allowed)* \n*However, TH8 is where rushing needs to stop and we expect you to fully max TH8 before going to TH9*",
-    "thumbnail": {
-        "url": "https://api-assets.clashofclans.com/badges/200/D-4pENmc5xSGPU2KWtJBa7dSjHj3hX42uLDUQ4zWPIo.png"
-    },
-    "image": {
-        "url": "https://cdn.discordapp.com/attachments/764780425465298968/976216708945698836/unknown.png"
-    },
-    "color": 26367
-}
+{"url":"https://link.clashofclans.com/en?action=OpenClanProfile&tag=GYR0RRJ","title":"Royal Pirates","description":"**Accepting TH 8-11.5**\n> ► Minimum Wars/Season - 4\n> ► General Rules - <#973912318494777355>\n> ► War Cycle: Mon/Wed/Fri at *6pm UTC*\n\n__*Minimum Townhall Requirements:*__\n\n**Townhall 11** :TH11:\n> ► Max TH10 Defence/Troops/Spells\n> ► Hero Levels: King /Queen - 40/40\n\n**Townhall 10** :TH10:\n> ► Max TH9 Defence/Troops/Spells\n> ► Hero Levels: King/Queen - 25/25\n\n**Townhall 9** :TH9:\n> ► Max TH8 Defence/Troops/Spells\n> ► Hero Levels: King - 10\n\n**Townhall 8** :TH8:\n> ► Max TH7 Defence/Troops/Spells\n> ► Hero Levels: King - 5\n\n** **\n\n*We are less concerned with your base / troops / heroes as you reach TH8 (although egregious rushing is still not allowed)* \n*However, TH8 is where rushing needs to stop and we expect you to fully max TH8 before going to TH9*","thumbnail":{"url":"https://api-assets.clashofclans.com/badges/200/D-4pENmc5xSGPU2KWtJBa7dSjHj3hX42uLDUQ4zWPIo.png"},"image":{"url":"https://cdn.discordapp.com/attachments/789678733312524328/1075106895569887362/image-removebg-preview_3.png"},"color":26367}
 
-{
-    "url": "https://link.clashofclans.com/en?action=OpenClanProfile&tag=2YCLYPPL8",
-    "title": "Rogue Pirates",
-    "description": "**Accepting TH 11-14**\n> ► Minimum War Weight: TH11\n> ► General Rules - <#973912318494777355>\n> ► FWA Layouts - <#844414358904635404>\n> ► War Cycle: B2B - 💎FWA💎 Sync\n\n__*Minimum Townhall Requirements:*__\n\n**Townhall 11** :TH11:\n> ► FWA Base Mandatory.\n> ► War Weight: 90 ≤ 110\n\n**Townhall 12** :TH12:\n> ► FWA Base Mandatory.\n> ► War Weight: 100 ≤ 120\n\n**Townhall 13** :TH13:\n> ► FWA Base Mandatory.\n> ► War Weight: 110 ≤ 130\n\n**Townhall 14** :TH14:\n> ► FWA Base Mandatory.\n> ► War Weight: 120 ≤ 140\n** **\n\n*We are less concerned with your base / troops / heroes as long as you have the war weight of a TH11. To know your war weight, send a FC, note down the gold at your TH, multiply by 5, divide by a 100.*",
-    "thumbnail": {
-        "url": "https://api-assets.clashofclans.com/badges/200/z0lQQHgrILAY-888t6d0PsamKs8xX8NmTOK9JMunyeM.png"
-    },
-    "image": {
-        "url": "https://cdn.discordapp.com/attachments/764780425465298968/976220945108852746/unknown.png"
-    },
-    "color": 6970056
-}
+{"url":"https://link.clashofclans.com/en?action=OpenClanProfile&tag=2YCLYPPL8","title":"Rogue Pirates","description":"**Accepting TH 11-15**\n> ► Minimum War Weight: TH11\n> ► General Rules - <#973912318494777355>\n> ► FWA Layouts - <#844414358904635404>\n> ► War Cycle: B2B - 💎FWA💎 Sync\n\n__*Minimum Townhall Requirements:*__\n\n**Townhall 11** :TH11:\n> ► FWA Base Mandatory.\n> ► War Weight: 90 ≤ 110\n\n**Townhall 12** :TH12:\n> ► FWA Base Mandatory.\n> ► War Weight: 100 ≤ 120\n\n**Townhall 13** :TH13:\n> ► FWA Base Mandatory.\n> ► War Weight: 110 ≤ 130\n\n**Townhall 14** :TH14:\n> ► FWA Base Mandatory.\n> ► War Weight: 120 ≤ 140\n\n**Townhall 15** :TH15:\n> ► FWA Base Mandatory.\n> ► War Weight: 130 ≤ 150\n** **\n\n*We are less concerned with your base / troops / heroes as long as you have the war weight of a TH11. To know your war weight, send a FC, note down the gold at your TH, multiply by 5, divide by a 100.*","thumbnail":{"url":"https://api-assets.clashofclans.com/badges/200/z0lQQHgrILAY-888t6d0PsamKs8xX8NmTOK9JMunyeM.png"},"image":{"url":"https://cdn.discordapp.com/attachments/789678733312524328/1075123268811505825/image-removebg-preview_4.png"},"color":6970056}
 
-{
-     "image": {
-         "url": "https://cdn.discordapp.com/attachments/764780425465298968/976230156958052433/standard_3_1.gif"
-     },
-     "color": 16711680
-}
+{"image":{"url":"https://cdn.discordapp.com/attachments/764780425465298968/976230156958052433/standard_3_1.gif"},"color":16711680}
 
 //apply stuff 
 {
@@ -270,3 +177,53 @@
     }]
 }
 
+
+{{ $args := parseArgs 1 "" (carg "user" "target user") }}
+{{$userid := ($args.Get 0) }}
+{{$thumb := ("https://cdn.discordapp.com/attachments/294958600277983233/803027001589104720/image0.gif") }}
+{{$warlogo := ("https://static.wikia.nocookie.net/clashofclans/images/9/97/LeagueMedal.png/revision/latest?cb=20181023140411") }}
+{{$wmbot := ("https://cdn.discordapp.com/avatars/185112286308990991/27545a25d79e2547b8bfc861e58a7043.png?size=1024") }}
+{{$reaction :=("https://reaction-role.com/static/favicon/favicon.png") }}
+
+{{$war := complexMessage "content" $userid.Mention "embed" (cembed "title" (joinStr "" "Hey there! " $userid.Username ", Welcome to the war-room!")
+"description" `This right here is the *war-room.* Stuck on a base? Don't worry! Post a __*screenshot*__ here and ask for help, a lot of willing volunteers would love to help you *plan* your attack.  This room is __***strictly***__ limited to war related discussions only. Need some CC for a __*war attack*__? Feel free to tag the <@&818685274430242847> &  <@&749043993672810616> roles depending on your **requirements!** __***Don't abuse***__ it.`  "color" 2938576 "thumbnail" (sdict "url" $warlogo))}}
+
+{{$wmchannel := complexMessage "content" $userid.Mention "embed" (cembed "title" (joinStr "" "Almost there! " $userid.Username ", Welcome to the wm-bot channel!")
+"description" `**You finally made it here!**, this is the __*minion-bot channel*__. Here’s where you call the bases, during war. Check out this *guide* for additional information and specifics- <#769244397123665960>!`  "color" 2938576 "thumbnail" (sdict "url" $wmbot))}}
+
+{{$welcome := complexMessage "content" $userid.Mention "embed" (cembed "title" (joinStr "" "Ahoy! " $userid.Username ", Welcome on-board!")
+"description" `Please change your nickname to reflect  your *in-game name* and, have a read through the __***rules***__ by clicking this [link](https://www.reddit.com/r/RedditPirates/wiki/index).
+
+
+Here're *some* of the channels that you should look out for. Make sure you follow and **read** through the *instructions* __***below***__!
+
+> [#pirates-war-room](https://discord.com/channels/258970772842872844/295298683191427082) - This right here is the *war-room.* Stuck on a base? Don't worry! Post a __*screenshot*__ here and ask for help, a lot of willing volunteers would love to help you *plan* your attack.  This room is __***strictly***__ limited to war related discussions only. Need some CC for a __*war attack*__? Feel free to tag the <@&818685274430242847> &  <@&749043993672810616> roles depending on your **requirements!** __***Don't abuse***__ it. 
+
+> [#pirates-mbot](https://discord.com/channels/258970772842872844/258970912332709888) -  This is the __*minion-bot channel*__. Here’s where you call the bases that you would be attacking during war. Check out this *guide* for additional information and specifics- <#769244397123665960>! 
+
+> [#war-parcels](https://discord.com/channels/258970772842872844/444885466404093952) - When the wars have a *slight mismatch* and we have a disadvantage towards *our* receiving end, this channel is used to __***push out war parcels***__. These parcels instruct you on what __***range of bases***__ to attack.
+
+Welcome once again, get your sails up and enjoy the ocean!` "color" 59647 "thumbnail" (sdict "url" $thumb))}}
+
+{{ $roles := (cembed "title" (joinStr "" "Don't forget to update your roles!")
+"description" `Here's a list of *self-assigning* __***roles***__ available at <#786332089784074250>!
+
+> __***Townhall Roles***__: React to the message to receive the appropriate townhall roles!
+
+> __***Voluntary Roles***__: React to the message to receive __*voluntary support*__ roles, when *in need*, people would **tag** this role for *troops/sieges.*
+
+> __***Permanent Super Troop Roles***__: React to receive a __*super troop role*__ that you've **boosted** which *never expires!*
+
+> __***Temporary 3-day Super Troop Roles***__: React to receive a __*super troop role*__ that you've **boosted** which *expires* after __***3-days.***__ Make sure to react again to receive the role!` "color" 16766720 "thumbnail" (sdict "url" $reaction))}}
+
+{{if .Message.Mentions}}
+{{giveRoleID (index .Message.Mentions 0) 295297145194676225}}
+{{takeRoleID (index .Message.Mentions 0) 798350031358656543}}
+{{takeRoleID (index .Message.Mentions 0) 976621082465415218}}
+
+{{end}}
+
+{{sendMessage 258970772842872844 $welcome}}
+{{sendMessage 295298683191427082 $war}}
+{{sendMessage 258970912332709888 $wmchannel}}
+{{sendMessage 258970772842872844 $roles}}
